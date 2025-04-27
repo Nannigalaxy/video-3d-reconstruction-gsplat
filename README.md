@@ -2,6 +2,8 @@
 
 This repository provides a streamlined pipeline for converting videos into 3D Gaussian Splatting models using COLMAP for Structure-from-Motion (SfM) and Speedy-Splat for model training.
 
+<img src="doc_images/demo.gif"/>
+
 ## Prerequisites
 
 - [COLMAP](https://colmap.github.io/install.html)
@@ -23,14 +25,6 @@ cd video-3d-reconstruction-gsplat
 chmod +x *.sh
 ```
 
-## Pipeline Overview
-
-The pipeline consists of three main steps:
-
-1. **Frame Extraction**: Extracts frames from input video at specified FPS
-2. **Structure from Motion**: Uses COLMAP to perform SfM and generate camera parameters
-3. **3D Gaussian Splatting**: Trains a Speedy-Splat model using the processed data
-
 ## Usage
 
 Run the complete pipeline using:
@@ -51,6 +45,16 @@ Run the complete pipeline using:
 ```bash
 ./video_to_gsplat.sh 20 ./input.mp4 ./sfm_output ./gsplat_model
 ```
+## Pipeline Overview
+
+The pipeline consists of three main steps:
+
+1. **Frame Extraction**: Extracts frames from input video at specified FPS
+2. **Structure from Motion**: Uses COLMAP to perform SfM and generate camera parameters
+3. **3D Gaussian Splatting**: Trains a Speedy-Splat model using the processed data
+
+![](doc_images/detail_diagram.png)
+
 
 ## Components
 
