@@ -117,6 +117,18 @@ gsplat_output_dir/
     └───── point_cloud.ply
 ```
 
+# Viewing Results
+
+## Gaussian Splatting Output
+You can view the trained Gaussian Splatting model using the SIBR viewer, found in speedy-splat dir or pull from [source](https://sibr.gitlabpages.inria.fr/?page=index.html&version=0.9.6). Need to build this to use, follow its instructions.
+
+## Point Cloud Files
+The PLY files (found in `gsplat_output_dir/point_cloud/` directory) can be viewed using various 3D visualization tools:
+- [MeshLab](https://www.meshlab.net/)
+- [CloudCompare](https://www.cloudcompare.org/)
+- [Blender](https://www.blender.org/) (using File > Import > PLY)
+- [ParaView](https://www.paraview.org/)
+
 # Troubleshooting
 
 ## COLMAP Issues
