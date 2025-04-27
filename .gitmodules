@@ -1,0 +1,3 @@
+[submodule "speedy-splat"]
+	path = speedy-splat
+	url = https://github.com/j-alex-hanson/speedy-splat.git
