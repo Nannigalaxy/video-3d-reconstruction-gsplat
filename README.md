@@ -8,7 +8,7 @@ This repository provides a streamlined pipeline for converting videos into 3D Ga
 
 - [FFmpeg](https://ffmpeg.org/download.html)
 - [COLMAP](https://colmap.github.io/install.html)
-- [Speedy-Splat](https://github.com/speedysplat/speedy-splat) dependencies
+- [Speedy-Splat](https://github.com/j-alex-hanson/speedy-splat) dependencies
 - Python 3.10+
 - CUDA-enabled GPU (recommended) ([CUDA Toolkit](https://developer.nvidia.com/cuda-toolkit))
 
@@ -178,7 +178,7 @@ This project builds on:
 ### Speedy-Splat
 - [Project Page](https://speedysplat.github.io)
 - [Paper (arXiv)](https://arxiv.org/abs/2412.00578)
-- [Original Repository](https://github.com/speedysplat/speedy-splat)
+- [Original Repository](https://github.com/j-alex-hanson/speedy-splat)
 
 If you use this pipeline in your research, please cite:
 
