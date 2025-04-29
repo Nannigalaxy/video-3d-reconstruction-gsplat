@@ -165,6 +165,12 @@ The PLY files (found in `gsplat_output_dir/point_cloud/` directory) can be viewe
 
 MIT License - See LICENSE file for details
 
+
+>### Licensing Notice  
+>This repository includes a submodule or dependency on the Gaussian Splatting project, which is licensed separately under a non-commercial, research-only license by Inria and MPII.  
+>Please refer to [Gaussian-Splatting-LICENSE](https://github.com/j-alex-hanson/speedy-splat/blob/4952a8295d62d7f4338a2b8a6e881f65053058a1/LICENSE.md) for full details.  
+>This code cannot be used for commercial purposes without explicit permission from the original authors.
+
 ## References & Citation
 
 This project builds on:
