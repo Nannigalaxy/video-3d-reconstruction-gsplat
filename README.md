@@ -6,11 +6,11 @@ This repository provides a streamlined pipeline for converting videos into 3D Ga
 
 ## Prerequisites
 
-- [COLMAP](https://colmap.github.io/install.html)
 - [FFmpeg](https://ffmpeg.org/download.html)
+- [COLMAP](https://colmap.github.io/install.html)
+- [Speedy-Splat](https://github.com/speedysplat/speedy-splat) dependencies
 - Python 3.10+
 - CUDA-enabled GPU (recommended) ([CUDA Toolkit](https://developer.nvidia.com/cuda-toolkit))
-- [Speedy-Splat](https://github.com/speedysplat/speedy-splat) dependencies
 
 ## Installation
 
@@ -82,7 +82,7 @@ Key Speedy-Splat training parameters:
 - Position Learning Rate: 0.001 (initial) to 0.0001 (final)
 - Feature Learning Rate: 0.0001
 - Densification Interval: 1000
-- Checkpoint Interval: 500
+- Checkpoint Interval: 1000
 
 ## Output Structure
 
@@ -124,9 +124,9 @@ You can view the trained Gaussian Splatting model using the SIBR viewer, found i
 
 ## Point Cloud Files
 The PLY files (found in `gsplat_output_dir/point_cloud/` directory) can be viewed using various 3D visualization tools:
+- [Blender](https://www.blender.org/) (using File > Import > PLY)
 - [MeshLab](https://www.meshlab.net/)
 - [CloudCompare](https://www.cloudcompare.org/)
-- [Blender](https://www.blender.org/) (using File > Import > PLY)
 - [ParaView](https://www.paraview.org/)
 
 # Troubleshooting
@@ -149,11 +149,11 @@ The PLY files (found in `gsplat_output_dir/point_cloud/` directory) can be viewe
 1. **Training Stability**:
    - If training diverges, try reducing position_lr_init to 0.0005
    - Increase densification_interval to 2000 for complex scenes
-   - Use checkpoint_iterations=250 for more frequent saves
+   - Use checkpoint_iterations=500 for more frequent saves
 
 2. **Output Quality**:
    - Poor reconstruction might indicate insufficient camera coverage
-   - Try increasing iterations to 20000-30000 for complex scenes
+   - Try increasing iterations to 30000-50000 for complex scenes
    - Adjust percent_dense parameter (0.6-0.9) based on scene complexity
 
 3. **Common Error Messages**:
