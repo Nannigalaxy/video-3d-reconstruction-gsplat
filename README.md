@@ -1,6 +1,8 @@
 # Video to 3D Gaussian Splatting Pipeline
 
-This repository provides a streamlined pipeline for converting videos into 3D Gaussian Splatting models using COLMAP for Structure-from-Motion (SfM) and Speedy-Splat for model training.
+This repository provides a streamlined pipeline for converting videos into 3D Gaussian Splatting models using COLMAP for Structure-from-Motion (SfM) and Speedy-Splat for model training.  
+
+-> [Blog post](https://www.wirelog.net/posts/2025-04-26-video-to-3dgs/) where I have shared my experience.  
 
 <img src="doc_images/demo.gif"/>
 
