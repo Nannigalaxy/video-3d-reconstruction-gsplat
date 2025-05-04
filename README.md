@@ -180,27 +180,7 @@ This project builds on:
 - [Paper (arXiv)](https://arxiv.org/abs/2412.00578)
 - [Original Repository](https://github.com/j-alex-hanson/speedy-splat)
 
-If you use this pipeline in your research, please cite:
-
-```bibtex
-@Article{HansonSpeedy,
-    author  = {Hanson, Alex and Tu, Allen and Lin, Geng, and Singla, Vasu and Zwicker, Matthias and Goldstein, Tom},
-    title   = {Speedy-Splat: Fast 3D Gaussian Splatting with Sparse Pixels and Sparse Primitives},
-    journal = {arXiv},
-    year    = {2024}
-}
-```
-
 ### Original 3D Gaussian Splatting that Speedy-Splat is based-on 
 - [Project Page](https://repo-sam.inria.fr/fungraph/3d-gaussian-splatting/)
 - [Paper](https://arxiv.org/abs/2308.04079)
 - [Original Repository](https://github.com/graphdeco-inria/gaussian-splatting)
-
-```bibtex
-@Article{kerbl3Dgaussians,
-    title   = {3D Gaussian Splatting for Real-Time Radiance Field Rendering},
-    author  = {Kerbl, Bernhard and Kopanas, Georgios and Leimk{\"u}hler, Thomas and Drettakis, George},
-    journal = {ACM Transactions on Graphics},
-    year    = {2023},
-}
-```
